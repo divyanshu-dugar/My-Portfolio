@@ -25,3 +25,10 @@ body{
     color: white;
     font-family: "Poppins", sans-serif;
 }
+
+main hr{
+    border: 0;
+    background: rgb(170,107,228);
+    height: 1.2px;
+    margin: 40px 84px;
+}
