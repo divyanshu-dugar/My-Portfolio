@@ -1,21 +1,37 @@
 .contactMain{
-    min-height: 100%;
-}
-
-.container{
-    height: 50%;
-    width: 60%;
-    margin: 10% 20%;
+    height: 40vh;
+    width: 60vw;
+    margin: 22vh auto;
     background-color: rgb(52, 52, 105);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.container h2{
+.image{ 
     text-align: center;
 }
 
-.container .image img{
-    margin: 30px 80px;
-    height: 30%;
-    width: 10%;
+.image h2{
+    font-size: 2em;
+}
+
+.image img{
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
     border-radius: 50%;
+}
+
+.social-media{
+    margin: 20px 0;
+}
+
+.social-media a{
+    margin: 0 20px;
+}
+
+.social-media a img{
+    width: 40px;
 }
