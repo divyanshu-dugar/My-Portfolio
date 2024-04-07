@@ -9,7 +9,11 @@
     width: 30%;
 } */
 
-.leftSection,.rightSection{
+.leftSection{
+    width: 30%;
+}
+
+.rightSection{
     width: 30%;
 }
 

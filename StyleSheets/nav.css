@@ -23,9 +23,8 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    text-decoration: none;
     color: rgb(170,107,228);
-    font-size: 1.01rem;
+    text-decoration: underline;
 }
 
 .left{
