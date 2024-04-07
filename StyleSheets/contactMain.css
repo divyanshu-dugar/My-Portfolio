@@ -1,0 +1,21 @@
+.contactMain{
+    min-height: 100%;
+}
+
+.container{
+    height: 50%;
+    width: 60%;
+    margin: 10% 20%;
+    background-color: rgb(52, 52, 105);
+}
+
+.container h2{
+    text-align: center;
+}
+
+.container .image img{
+    margin: 30px 80px;
+    height: 30%;
+    width: 10%;
+    border-radius: 50%;
+}
