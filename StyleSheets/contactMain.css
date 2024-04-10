@@ -1,5 +1,5 @@
 .contactMain{
-    height: 40vh;
+    height: 350px;
     width: 60vw;
     margin: 22vh auto;
     background-color: rgb(52, 52, 105);
@@ -34,4 +34,9 @@
 
 .social-media a img{
     width: 40px;
+    
+}
+
+.social-media a img:hover{
+    transform: scale(1.2);
 }

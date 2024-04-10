@@ -1,7 +1,7 @@
 .secondSection {
-  height: 70vh;
-  max-width: 80vw;
-  margin: auto;
+  height: 90vh;
+  max-width: 100vh;
+  margin-left: 20px;
 }
 
 .text-gray {
@@ -14,9 +14,9 @@
 
 .secondSection .box {
   background: white;
-  width: 80vw;
+  width: 95vw;
   height: 2px;
-  margin: 100px 0px 0;
+  margin: 100px 0px;
   display: flex;
 }
 
