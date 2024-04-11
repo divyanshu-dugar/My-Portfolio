@@ -1,7 +1,7 @@
 .secondSection {
   height: 550px;
-  max-width: 100vh;
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 .text-gray {
@@ -14,17 +14,16 @@
 
 .secondSection .line {
   background: white;
-  width: 95vw;
   height: 2px;
   margin: 100px 0px;
   display: flex;
+  justify-content: space-around;
 }
 
 .secondSection .vertical {
   height: 93px;
   width: 1px;
   background-color: white;
-  margin: 0 150px;
 }
 
 .image1 {
@@ -67,8 +66,8 @@
 
 .vertical-title1 {
     position: relative;
-    top: 23px;
-    left: -7px;
+    top: 20px;
+    left: -6px;
 }
 
 .vertical-title2 {
@@ -105,5 +104,4 @@
     color: gray;
     width: 175px;
     font-size: 12px;
-    
 }
