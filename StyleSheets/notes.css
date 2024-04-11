@@ -1,15 +1,16 @@
 .notesContainer{
+    max-width: 80%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 50px 50px;
+    margin: 50px auto;
 }
 
 .notes{
     width: 300px;
     height: 280px;
     background-color: white;
-    margin: 20px 0;
+    margin: 20px 20px;
     border-radius: 1em;
     background-color: rgb(18, 18, 62);
     display: flex;
@@ -32,10 +33,6 @@
 
 .notes .desc p{
     color: gray;
-}
-
-.notes .image img{
-    
 }
 
 .notes .buttons button{

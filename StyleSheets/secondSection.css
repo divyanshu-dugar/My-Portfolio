@@ -27,17 +27,25 @@
   margin: 0 150px;
 }
 
-.image-top {
+.image1 {
   width: 150px;
   position: relative;
   top: -80px;
   left: -75px;
 }
 
+.image2 {
+  width: 75px;
+  position: relative;
+  top: -80px;
+  left: -40px;
+}
+
 .vertical-title {
     position: relative;
+    width: 200px;
     top: 16px;
-    left: -19px;
+    left: -74px;
 }
 
 .vertical-desc {
