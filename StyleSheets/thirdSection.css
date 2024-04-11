@@ -1,0 +1,24 @@
+.thirdSection {
+    height: 550px;
+    max-width: 100vh;
+    margin-left: 20px;
+}
+
+.thirdSection h1 {
+    font-size: 2rem;
+  }
+  
+.thirdSection .line {
+    background: white;
+    width: 95vw;
+    height: 2px;
+    margin: 100px 0px;
+    display: flex;
+}
+
+.thirdSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 150px;
+  }

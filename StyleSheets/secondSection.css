@@ -1,5 +1,5 @@
 .secondSection {
-  height: 90vh;
+  height: 550px;
   max-width: 100vh;
   margin-left: 20px;
 }
@@ -12,7 +12,7 @@
   font-size: 2rem;
 }
 
-.secondSection .box {
+.secondSection .line {
   background: white;
   width: 95vw;
   height: 2px;
@@ -28,31 +28,82 @@
 }
 
 .image1 {
-  width: 150px;
+  width: 70px;
   position: relative;
-  top: -80px;
-  left: -75px;
+  top: -74px;
+  left: -34px;
 }
 
 .image2 {
-  width: 75px;
+  width: 55px;
   position: relative;
-  top: -80px;
-  left: -40px;
+  top: -70px;
+  left: -28px;
 }
 
-.vertical-title {
+.image3{
+  width: 65px;
+  position: relative;
+  top: -72px;
+  left: -33px;
+  border-radius: 5px;
+}
+
+.image4{
+  width: 60px;
+  position: relative;
+  top: -75px;
+  left: -30px;
+  border-radius: 5px;
+}
+
+.image5{
+  width: 60px;
+  position: relative;
+  top: -68px;
+  left: -30px;
+  border-radius: 5px;
+}
+
+.vertical-title1 {
     position: relative;
-    width: 200px;
-    top: 16px;
-    left: -74px;
+    top: 23px;
+    left: -7px;
+}
+
+.vertical-title2 {
+    position: relative;
+    top: 30px;
+    left: -14px;
+}
+
+.vertical-title3 {
+  position: relative;
+  width: 80px;
+  top: 28px;
+  left: -20px;
+}
+
+.vertical-title4 {
+  position: relative;
+  width: 80px;
+  top: 25px;
+  left: -45px;
+}
+
+.vertical-title5 {
+  position: relative;
+  width: 80px;
+  top: 28px;
+  left: -20px;
 }
 
 .vertical-desc {
     position: relative;
-    top: 32px;
+    top: 34px;
     left: -65px;
     color: gray;
     width: 175px;
     font-size: 12px;
+    
 }
