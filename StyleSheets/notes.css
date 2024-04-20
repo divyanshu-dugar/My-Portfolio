@@ -1,9 +1,14 @@
+main h2{
+    text-align: center;
+    margin: 20px 0;
+}
+
 .notesContainer{
     max-width: 80%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 50px auto;
+    margin: 0px auto;
 }
 
 .notes{
