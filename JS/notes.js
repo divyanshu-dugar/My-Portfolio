@@ -6,7 +6,7 @@ for (const button of buttons) {
     let pdfPath;
     if (button.textContent.includes("C Notes")) {
       pdfPath =
-        "./Pdfs/All-You-Need-To-Know-About-Programming-As-A-Beginner.pdf";
+        "./Pdfs/C-Notes.pdf";
     }else if(button.textContent.includes("C++ Notes")){
       pdfPath =
         "./Pdfs/All-You-Need-To-Know-About-Programming-As-A-Beginner.pdf";
