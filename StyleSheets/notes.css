@@ -3,7 +3,7 @@ main h2{
     margin: 20px 0;
 }
 
-.notesContainer{
+.notesContainer, .cheatSheets{
     max-width: 80%;
     display: flex;
     justify-content: space-evenly;
