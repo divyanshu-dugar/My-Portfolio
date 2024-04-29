@@ -1,0 +1,7 @@
+1. Compiler VS Interpreter
+2. Static Memory vs Dynamic Memory
+3. Dynamic Type vs Static Type
+4. NPM
+5. Eslint
+6. Cyclic
+7. D'Morgans Law
