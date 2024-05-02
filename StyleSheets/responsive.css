@@ -1,0 +1,43 @@
+/*  */
+
+@media screen and (max-width: 1000px) {
+    /* body{
+        background-color: red;
+    } */
+
+    .firstSection{
+        flex-direction: column-reverse;
+    }
+
+    .secondSection{
+        height: 2000px;
+    }
+
+    .secondSection .line{
+        flex-direction: column;
+        margin: none;
+    }
+
+    .secondSection .vertical{
+        height: 500px;
+        position: relative;
+        top: 665px;
+        left: 30px;
+    }
+
+    .vertical .vertical-title1,.vertical-title2,.vertical-title3,.vertical-title4,.vertical-title5{
+        left: 40px;
+    }
+
+    .vertical .vertical-desc{
+        left: 40px;
+    }
+
+    .vertical .image1{
+        top: 190px;
+    }
+
+    .vertical .image2{
+        top: 170px;
+    }
+}

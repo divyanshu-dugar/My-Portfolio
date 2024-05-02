@@ -33,15 +33,3 @@ main hr{
     height: 1.2px;
     margin: 40px 84px;
 }
-
-/*  */
-
-@media screen and (max-width: 1000px) {
-    body{
-        background-color: red;
-    }
-
-    .firstSection{
-        flex-direction: column-reverse;
-    }
-}
