@@ -10,19 +10,26 @@
     }
 
     .secondSection,.thirdSection{
-        height: 1600px;
+        height: 1550px;
     }
 
     .secondSection .line, .thirdSection .line{
         flex-direction: column;
-        margin-top: -1px;
+        margin-top: 10px;
     }
 
     .secondSection .vertical, .thirdSection .vertical{
         height: 500px;
         position: relative;
         top: 675px;
-        left: 30px;
+        left: 130px;
+    }
+
+    .thirdSection .vertical{
+        height: 450px;
+        position: relative;
+        top: 700px;
+        left: 130px;
     }
 
     .vertical .vertical-title1,.vertical-title2,.vertical-title3,.vertical-title4,.vertical-title5,.title1, .title2, .title3, .title4, .title5{
@@ -33,7 +40,7 @@
         left: 40px;
     }
 
-    .vertical .image1,.img1{
+    .vertical .image1{
         top: 190px;
     }
 
@@ -51,5 +58,32 @@
 
     .vertical .image5{
         top: 180px;
+    }
+
+    .vertical .img1{
+        width: 50px;
+        top: 140px;
+        left: -25px;
+    }
+
+    .vertical .img2{
+        top: 140px;
+    }
+
+    .vertical .img3{
+        width: 90px;
+        top: 140px;
+        left: -55px;
+    }
+
+    .vertical .img4{
+        top: 150px;
+        width: 80px;
+        left: -40px;
+    }
+
+    .vertical .img5{
+        top: 170px;
+        width: 90px;
     }
 }
