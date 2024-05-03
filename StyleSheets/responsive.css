@@ -1,12 +1,32 @@
 /*  */
 
 @media screen and (max-width: 1000px) {
-    /* body{
-        background-color: red;
-    } */
 
     .firstSection{
         flex-direction: column-reverse;
+        margin: 40px 0;
+    }
+
+    .firstSection .leftSection{
+        width: 80%;
+        text-align: center;
+    }
+
+    .buttons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .firstSection .buttons .btn{
+        width: 200px;
+        margin: 5px 0;
+    }
+
+    .firstSection .rightSection{
+        width: 50%;
+        margin: 20px 0;
     }
 
     .secondSection,.thirdSection{
@@ -16,6 +36,7 @@
     .secondSection .line, .thirdSection .line{
         flex-direction: column;
         margin-top: 10px;
+        width: 90vw;
     }
 
     .secondSection .vertical, .thirdSection .vertical{
@@ -85,5 +106,18 @@
     .vertical .img5{
         top: 170px;
         width: 90px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    nav{
+        width: 100vw;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100px;
+    }
+
+    nav ul li{
+        margin: 6px;
     }
 }
