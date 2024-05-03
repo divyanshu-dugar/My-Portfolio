@@ -8,7 +8,7 @@
     }
 
     .firstSection .leftSection{
-        width: 80%;
+        width: 90%;
         text-align: center;
     }
 
@@ -19,7 +19,7 @@
         align-items: center;
     }
 
-    .firstSection .buttons .btn{
+    .firstSection .buttons .btn,.resume-btn{
         width: 200px;
         margin: 5px 0;
     }
@@ -43,14 +43,14 @@
         height: 500px;
         position: relative;
         top: 675px;
-        left: 130px;
+        left: 110px;
     }
 
     .thirdSection .vertical{
         height: 450px;
         position: relative;
         top: 700px;
-        left: 130px;
+        left: 110px;
     }
 
     .vertical .vertical-title1,.vertical-title2,.vertical-title3,.vertical-title4,.vertical-title5,.title1, .title2, .title3, .title4, .title5{
