@@ -24,6 +24,7 @@
 
 .img1 {
   width: 200px;
+  display: flex;
   position: relative;
   top: -105px;
   left: -90px;
