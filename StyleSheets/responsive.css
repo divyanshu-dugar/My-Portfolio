@@ -9,31 +9,31 @@
         flex-direction: column-reverse;
     }
 
-    .secondSection{
-        height: 2000px;
+    .secondSection,.thirdSection{
+        height: 1600px;
     }
 
-    .secondSection .line{
+    .secondSection .line, .thirdSection .line{
         flex-direction: column;
-        margin: none;
+        margin-top: -1px;
     }
 
-    .secondSection .vertical{
+    .secondSection .vertical, .thirdSection .vertical{
         height: 500px;
         position: relative;
-        top: 665px;
+        top: 675px;
         left: 30px;
     }
 
-    .vertical .vertical-title1,.vertical-title2,.vertical-title3,.vertical-title4,.vertical-title5{
+    .vertical .vertical-title1,.vertical-title2,.vertical-title3,.vertical-title4,.vertical-title5,.title1, .title2, .title3, .title4, .title5{
         left: 40px;
     }
 
-    .vertical .vertical-desc{
+    .vertical .vertical-desc, .desc1, .desc2, .desc3, .desc4, .desc5{
         left: 40px;
     }
 
-    .vertical .image1{
+    .vertical .image1,.img1{
         top: 190px;
     }
 
