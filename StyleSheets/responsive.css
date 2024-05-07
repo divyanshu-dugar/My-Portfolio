@@ -107,6 +107,18 @@
         top: 170px;
         width: 90px;
     }
+    
+    .secondSection {
+        display: flex; 
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .thirdSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 1000px){
@@ -119,5 +131,11 @@
 
     nav ul li{
         margin: 6px;
+    }
+
+    footer .footer-first h3{
+        display: block;
+        width: 380px;
+        text-align: center;
     }
 }
