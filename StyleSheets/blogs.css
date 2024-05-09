@@ -4,7 +4,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 180vh;
+}
+
+.blog1, .blog2{
+    margin: 20px 0px;
 }
 
 .blog1 img{
