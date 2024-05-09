@@ -5,3 +5,4 @@
 5. Eslint
 6. Cyclic
 7. D'Morgans Law
+8. AWS VS Azure
