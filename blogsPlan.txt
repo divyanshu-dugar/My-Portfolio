@@ -1,5 +1,5 @@
 
-4. NPM
+4. NPM (npm init VS npm install)
 5. Eslint
 6. Cyclic
 7. D'Morgans Law

@@ -5,6 +5,11 @@ nav{
     align-items: center;
     height: 70px;
     background-color: rgb(18, 18, 62);
+    /* Making Nav bar fixed on top */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 nav ul{
