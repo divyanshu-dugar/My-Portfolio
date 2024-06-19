@@ -1,19 +1,15 @@
 .container{
-    margin: 10px 10px;
+    margin: 70px 10px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.blog1, .blog2{
+.blogs{
     margin: 20px 0px;
 }
 
-.blog1 img{
-    width: 90vh;
-}
-
-.blog2 img{
+.blogs img{
     width: 90vh;
 }
