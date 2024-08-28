@@ -6,7 +6,8 @@
     "tailwindcss": "^3.4.10"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "tw:build": "tailwindcss build -i ./public/css/tailwind.css -o ./public/css/main.css"
   },
   "name": "my-portfolio",
   "description": "This Repository has the code to my Portfolio Page that I have built using HTML, CSS, JS, Tailwind CSS, EJS",
