@@ -3,28 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/main.css" />
+    <!-- <link rel="stylesheet" href="/css/main.css" /> -->
     <link rel="stylesheet" href="/css/global.css" />
     <link rel="stylesheet" href="/css/nav.css" />
     <link rel="stylesheet" href="/css/notes.css" />
     <title>Notes | Divyanshu Dugar</title>
   </head>
   <body>
-    <!-- HEADER -->
-    <header>
-      <nav>
-        <div class="left">Divyanshu's Portfolio</div>
-        <div class="right">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="notes">Notes</a></li>
-            <li><a href="blogs">Blogs</a></li>
-            <li><a href="projects">Projects</a></li>
-            <li><a href="contact">Contact Me</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+    <%- include('partials/navbar',{page:'/notes'}) %>
+
     <!-- MAIN -->
     <main>
       <h2>Download Notes Below</h2>
