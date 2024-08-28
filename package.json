@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "my-portfolio",
+  "description": "This Repository has the code to my Portfolio Page that I have built using HTML, CSS, JS, Tailwind CSS, EJS",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "Divyanshu Dugar",
+  "license": "ISC"
+}
