@@ -54,7 +54,7 @@
 .img5 {
   width: 120px;
   position: relative;
-  top: -50px;
+  top: -115px;
   left: -50px;
 }
 
@@ -84,7 +84,7 @@
 
 .title5{
     position: relative;
-    top: 59px;
+    top: -15px;
     left: -20px;
 }
 
@@ -126,7 +126,7 @@
 
 .desc5 {
     position: relative;
-    top: 68px;
+    top: -10px;
     left: -65px;
     color: gray;
     width: 175px;
