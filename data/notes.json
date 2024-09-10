@@ -1,0 +1,107 @@
+{
+    "notes": [
+      {
+        "name": "C Notes",
+        "desc": "Download Notes Here",
+        "image": "/Images/c.svg",
+        "buttonText": "C Notes"
+      },
+      {
+        "name": "C++ Notes",
+        "desc": "Download Notes Here",
+        "image": "/Images/c++.svg",
+        "buttonText": "C++ Notes"
+      },
+      {
+        "name": "OOP with C++ Notes",
+        "desc": "Download Notes Here",
+        "image": "/Images/oopCpp.svg",
+        "buttonText": "OOP | C++ Notes"
+      },
+      {
+        "name": "Java Notes",
+        "desc": "WILL BE UPLOADED SOON!",
+        "image": "/Images/java.svg",
+        "buttonText": "PDF Notes"
+      },
+      {
+        "name": "JavaScript Notes",
+        "desc": "WILL BE UPLOADED SOON!",
+        "image": "/Images/js.svg",
+        "buttonText": "PDF Notes"
+      },
+      {
+        "name": "Python Notes",
+        "desc": "WILL BE UPLOADED SOON!",
+        "image": "/Images/python.svg",
+        "buttonText": "PDF Notes"
+      },
+      {
+        "name": "SQL Notes",
+        "desc": "WILL BE UPLOADED SOON!",
+        "image": "/Images/sql.png",
+        "buttonText": "PDF Notes"
+      },
+      {
+        "name": "HTML Notes",
+        "desc": "WILL BE UPLOADED SOON!",
+        "image": "/Images/html-5.png",
+        "buttonText": "PDF Notes"
+      },
+      {
+        "name": "CSS Notes",
+        "desc": "WILL BE UPLOADED SOON!",
+        "image": "/Images/css-3.png",
+        "buttonText": "PDF Notes"
+      },
+      {
+        "name": "C - Cheatsheet",
+        "desc": "WILL BE UPLOADED SOON!",
+        "image": "/Images/c.svg",
+        "buttonText": "C Notes"
+      },
+      {
+        "name": "C++ - Cheatsheet",
+        "desc": "WILL BE UPLOADED SOON!",
+        "image": "/Images/c++.svg",
+        "buttonText": "C++ Notes"
+      },
+      {
+        "name": "Java - Cheatsheet",
+        "desc": "WILL BE UPLOADED SOON!",
+        "image": "/Images/java.svg",
+        "buttonText": "PDF Notes"
+      },
+      {
+        "name": "JavaScript - Cheatsheet",
+        "desc": "WILL BE UPLOADED SOON!",
+        "image": "/Images/js.svg",
+        "buttonText": "PDF Notes"
+      },
+      {
+        "name": "Python - Cheatsheet",
+        "desc": "WILL BE UPLOADED SOON!",
+        "image": "/Images/python.svg",
+        "buttonText": "PDF Notes"
+      },
+      {
+        "name": "SQL - Cheatsheet",
+        "desc": "WILL BE UPLOADED SOON!",
+        "image": "/Images/sql.png",
+        "buttonText": "PDF Notes"
+      },
+      {
+        "name": "HTML - Cheatsheet",
+        "desc": "WILL BE UPLOADED SOON!",
+        "image": "/Images/html-5.png",
+        "buttonText": "PDF Notes"
+      },
+      {
+        "name": "CSS - Cheatsheet",
+        "desc": "WILL BE UPLOADED SOON!",
+        "image": "/Images/css-3.png",
+        "buttonText": "PDF Notes"
+      }
+    ]
+  }
+  
