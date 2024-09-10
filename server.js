@@ -1,5 +1,6 @@
 const express = require('express');
-const path = require('path')
+const path = require('path');
+const notesData = require('./data/notes.json');
 
 const app = express();
 
@@ -23,9 +24,9 @@ app.get('/contact', (req, res) =>{
     res.render('contact');
 })
 
-app.get('/notes', (req,res) => {
-    res.render('notes');
-})
+app.get('/notes', (req, res) => {
+  res.render('notes', { notes: notesData.notes });
+});
 
 app.get('/projects', (req, res) => {
     res.render('projects');
