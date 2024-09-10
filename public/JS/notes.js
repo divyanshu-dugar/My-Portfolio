@@ -4,12 +4,18 @@ let buttons = document.getElementsByClassName("download");
 for (const button of buttons) {
   button.addEventListener("click", function () {
     let pdfPath;
-    if (button.textContent.includes("C Notes")) {
+    if (button.textContent === "C Notes") {
       pdfPath =
-        "/Pdfs/C-Notes.pdf";
+        "https://docs.google.com/document/d/1tT7xC_FIHJm1xOVVPA_WMddSqEzeijsT/edit?usp=sharing&ouid=113501728012545291332&rtpof=true&sd=true";
         window.open(pdfPath, "_blank");
-    }else{
-      
+    }else if (button.textContent === "C++ Notes"){
+      pdfPath =
+        "https://docs.google.com/document/d/1RffeJCgKCoDBj_0y1iY7LMW3_uy5BBek/edit?usp=sharing&ouid=113501728012545291332&rtpof=true&sd=true";
+        window.open(pdfPath, "_blank");
+      }else if (button.textContent === "OOP | C++ Notes"){
+        pdfPath =
+          "https://docs.google.com/document/d/1_g1-Cy9d_f-r3pCuNP6ImrlKS68-m_rX/edit?usp=sharing&ouid=113501728012545291332&rtpof=true&sd=true";
+          window.open(pdfPath, "_blank");
     }
     // else if(button.textContent.includes("C++ Notes")){
     //   pdfPath =
