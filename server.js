@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
-const notesData = require('./data/notes.json');
+const fs = require('fs');
+// const notesData = require('./data/notes.json');
 
 const app = express();
 
@@ -17,7 +18,8 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/blogs',(req,res) => {
-    res.render('blogs');
+    const blogsData = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'blogs.json'), 'utf-8'));
+    res.render('blogs', { blogs: blogsData });
 })
 
 app.get('/contact', (req, res) =>{
@@ -25,6 +27,7 @@ app.get('/contact', (req, res) =>{
 })
 
 app.get('/notes', (req, res) => {
+  const notesData = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'notes.json'), 'utf8'));
   res.render('notes', { notes: notesData.notes });
 });
 
