@@ -15,33 +15,13 @@
 
     <main>
       <div class="container">
-        <div class="blogs">
-          <h3>What are Virtual Machines?</h3>
-          <img src="./Images/Virtual-Machines.png" alt="">
-        </div>
-        
-        <div class="blogs">
-          <h3>Significant Keys in DataBase (Oracle)</h3>
-          <img src="./Images/Keys-DataBase.png" alt="">
-        </div>
-        <div class="blogs">
-          <h3>3 General Categories of SQL Commands (Oracle)</h3>
-          <img src="./Images/SQL-Comands-Categories.png" alt="">
-        </div>
-        <div class="blogs">
-          <h3>Let's compare the types in C with those in C++</h3>
-          <img src="./Images/C-C++.png" alt="">
-        </div>
-        <div class="blogs">
-          <h3>Let's explore the difference between compilers and interpreters</h3>
-          <img src="./Images/Compiler-VS-Interpreter.png" alt="">
-        </div>
-        <div class="blogs">
-          <h3>Let's delve into the concept of Static VS Dynamic
-          </h3>
-          <img src="./Images/Static-VS-Dynamic.png" alt="">
-        </div>
-      </div>
+        <% blogs.forEach(blog => { %>
+          <div class="blogs">
+            <h3><%= blog.title %></h3>
+            <img src="<%= blog.image %>" alt="">
+          </div>
+        <% }) %>
+      </div>      
     </main>
 
   </body>
