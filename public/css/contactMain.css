@@ -35,7 +35,7 @@
 
 .social-media a img{
     width: 40px;
-    
+    transition: transform 0.4s ease-in-out;
 }
 
 .social-media a img:hover{
