@@ -1,2 +1,4 @@
 # My-Portfolio
-This Repository has the code to my Portfolio Page that I have built using HTML, CSS, JS, Tailwind CSS, EJS
+Hey Forks! Welcome to my Portfolio Repository. I have implemented my knowledge of Web Development to build this webpage.
+
+Tech Stacks - 
