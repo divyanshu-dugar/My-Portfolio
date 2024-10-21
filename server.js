@@ -35,6 +35,18 @@ app.get('/projects', (req, res) => {
     res.render('projects');
 })
 
+// API
+app.get('/api/data', (req, res) => {
+    fs.readFile(path.join(__dirname, 'data', 'harry-potter.json'), 'utf8', (err, data) => {
+        if (err) {
+            console.error(err);
+            return res.status(500).json({ error: "Failed to read data" }); // Send error response
+        }
+        res.json(JSON.parse(data));
+    });
+});
+
+
 app.listen(PORT,()=>{
     console.log(`App Listening on port ${PORT}`)
 });
