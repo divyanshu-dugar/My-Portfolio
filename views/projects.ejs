@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/projects.css">
@@ -11,13 +11,18 @@
 </head>
 <body>
     <!-- HEADER -->
-    <%- include('partials/navbar',{page:'/projects'}) %>
+    <%- include('partials/navbar', { page: '/projects' }) %>
 
-      <!-- MAIN -->
-      <main>
-        <section class="firstSection">
+    <main>
+        <div>
+            <h2>AJAX - JSON</h2>
+            <div id="ajax">
+                <button id="load-characters" class="btn btn-secondary">Primary</button>
+            </div>
+        </div>
+    </main>
 
-        </section>
-      </main>
+    <script src="/JS/project-server.js">
+    </script>
 </body>
 </html>
