@@ -1,3 +1,17 @@
+.card-container{
+    padding-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 25px;
+    transform: transform ease-in-out 0.3s;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+
 .container{
     margin: 70px 10px;
     text-align: center;

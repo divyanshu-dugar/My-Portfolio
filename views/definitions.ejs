@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="/css/main.css" /> -->
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/blogs.css">
+    <title>Blogs | Divyanshu Dugar</title>
+  </head>
+  <body>
+
+    <%- include('partials/navbar',{page:'/blogs'}) %>
+
+    <main>
+      <div class="container">
+        <% blogs.forEach(blog => { %>
+          <div class="blogs">
+            <h3><%= blog.title %></h3>
+            <img src="<%= blog.image %>" alt="">
+          </div>
+        <% }) %>
+      </div>      
+    </main>
+
+  </body>
+</html>

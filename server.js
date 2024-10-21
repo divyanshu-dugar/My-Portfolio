@@ -18,8 +18,8 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/blogs',(req,res) => {
-    const blogsData = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'blogs.json'), 'utf-8'));
-    res.render('blogs', { blogs: blogsData });
+    const blogCards = JSON.parse(fs.readFileSync(path.join(__dirname, "data", "blogs-cards.json"), "utf8"));
+    res.render('blogs', {blogs: blogCards})
 })
 
 app.get('/contact', (req, res) =>{
@@ -33,6 +33,15 @@ app.get('/notes', (req, res) => {
 
 app.get('/projects', (req, res) => {
     res.render('projects');
+})
+
+app.get('/web-dev', (req, res)=>{
+    res.send("20th October, 2024 - Today I learned about AJAX, 21st - Promises (resolve - then, reject - catch)");
+})
+
+app.get('/definitions', (req, res) => {
+    const blogsData = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'blogs-definitions.json'), 'utf-8'));
+    res.render('definitions', { blogs: blogsData });
 })
 
 // API
