@@ -34,6 +34,11 @@
 .rightSection{
     width: 30%;
 }
+.rightSection img{
+    height: 360px;
+    width: 270px;
+    border-radius: 50%;
+}
 
 .leftSection{
     font-size: 2.5rem;
@@ -45,8 +50,4 @@
 
 #element{
     color: rgb(170,107,228);
-}
-
-.rightSection img{
-    width: 80%;
 }
