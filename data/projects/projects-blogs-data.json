@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "name": "Web222",
+        "content": "The Web222 covers HTML, CSS and JS"
+    },
+    {
+        "id": "2",
+        "name": "Web322",
+        "content": "The Web322 covers Node.js - Express, EJS, MongoDB, Tailwindcss"
+    },
+    {
+        "id": "3",
+        "name": "Web422",
+        "content": "The Web422 covers Next.js and React"
+    }
+]
