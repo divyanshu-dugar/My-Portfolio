@@ -8,6 +8,7 @@ const app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname,'public')));
+app.use(express.urlencoded({ extended: true })); // For parsing form data
 
 const PORT = process.env.PORT || 8080;
 
@@ -56,6 +57,19 @@ app.get('/projects/:id', (req, res) => {
     }
 })
 
+// REST API - BLOGS
+app.get('/project2/blogs/add', (req, res) => {
+    res.render('add');
+})
+
+app.post('/project2/blogs/add', (req, res) => {
+    let {name, content} = req.body;
+    let newBlog = {name, content};
+    console.log(newBlog);
+
+    
+})
+
 app.get('/project2/blogs/:id', (req, res) => {
     let id = req.params.id;
 
@@ -68,15 +82,6 @@ app.get('/project2/blogs/:id', (req, res) => {
 
     res.render("show", { blog });
 });
-
-// REST API - BLOGS
-app.get('/project2/blogs/add', (req, res) => {
-    res.render('add');
-})
-
-app.post('project2/blogs/add', (req, res) => {
-
-})
 
 app.get('/web-dev', (req, res)=>{
     res.render("web-dev", {webdevelopment});

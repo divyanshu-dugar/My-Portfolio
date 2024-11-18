@@ -9,8 +9,16 @@
     <h2>Add new blog</h2>
     <form method="POST" action="/project2/blogs/add">
         <div>
-            <input type="text">
+            <label for="name">Title: </label>
+            <input id="name" type="text" name="name" placeholder="Enter the title of the blog">
         </div>
+
+        <div>
+            <label for="content">Content: </label>
+            <input id="content" type="text" name="content" placeholder="Enter the description of the blog">
+        </div>
+
+        <button>Submit</button>
     </form>
 </body>
 </html>
