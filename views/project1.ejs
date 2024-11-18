@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <title><%= project.name %></title>
+</head>
+<style>
+h2{
+    margin: 20px;
+}
+
+main{
+    padding-top: 70px;
+}
+
+#ajax {
+    margin: 20px;
+}
+
+table {
+    width: 20%;
+    border-collapse: collapse;
+    margin: 20px;
+    border: 1px solid #ddd;
+}
+
+table tr {
+    border: 1px solid white;
+}
+
+table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table tr:nth-child(even) {
+     background-color: pink;
+}
+
+table tr:hover {
+    background-color: rebeccapurple;
+}
+</style>
+
+<body>
+    <%- include('partials/navbar.ejs', {page:''})%>
+    <main>
+        <div>
+            <h2><%= project.name %></h2>
+            <div id="ajax">
+                <button id="load-characters" class="btn btn-secondary">Load All Data</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="/JS/project-server.js">
+    </script>
+</body>
+</html>

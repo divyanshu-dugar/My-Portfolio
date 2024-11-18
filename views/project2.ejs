@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/projects.css">
+    <title><%= project.name %></title>
+</head>
+<body>
+    <%- include('partials/navbar.ejs', {page: ''})%>
+
+    <div>
+        <h2>Resful API - Blogs</h2>
+
+        <section>
+        <% blogs.forEach((blog) => {%>
+            <div class="card bg-primary text-primary-content w-96">
+                <div class="card-body">
+                  <h2 class="card-title"><%= blog.name %></h2>
+                  <p><%= blog.content %></p>
+                  <a href="/project2/blogs/<%= blog.id %>">R - View</a>
+                  <a href="/project2/blogs/<%= blog.id %>">U - Update</a>
+                  <div class="card-actions justify-end">
+                    <button class="btn">D - Remove</button>
+                  </div>
+                </div>
+              </div>
+        <% }) %>
+    </div>
+</section>
+<button class="btn"> <a href="/project2/blogs/add"></a> C - Add a new Blog</button>
+</body>
+</html>

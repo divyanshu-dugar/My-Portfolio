@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Web-Dev Learning Journey</title>
+</head>
+<body>
+    <% webdevelopment.forEach((webdev) => { %>
+    <div class="card bg-primary text-primary-content w-96">
+        <div class="card-body">
+          <h2 class="card-title"><%= webdev.topic %></h2>
+          <p><%= webdev.description %></p>
+          <div class="card-actions justify-end">
+            <button class="btn"></button>
+          </div>
+        </div>
+    </div>
+    <% }) %>
+</body>
+</html>
