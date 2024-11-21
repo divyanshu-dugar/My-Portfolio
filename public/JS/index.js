@@ -10,7 +10,7 @@ button.addEventListener("click", function() {
 });
 
 resume.addEventListener("click",()=>{
-    const pdfPath = "/Pdfs/Divyanshu_Dugar_Resume.pdf";
+    const pdfPath = "/Pdfs/Web-Dev_Dugar_Resume.pdf";
     window.open(pdfPath,"_blank") ;
 });
 
