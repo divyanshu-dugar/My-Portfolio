@@ -20,11 +20,12 @@
             <div class="card bg-primary text-primary-content w-96">
                 <div class="card-body">
                   <h2 class="card-title"><%= blog.name %></h2>
-                  <p><%= blog.content %></p>
                   <a href="/project2/blogs/<%= blog.id %>">R - View</a>
-                  <a href="/project2/blogs/<%= blog.id %>">U - Update</a>
+                  <a href="/project2/blogs/<%= blog.id %>/update">U - Update</a>
                   <div class="card-actions justify-end">
-                    <button class="btn">D - Remove</button>
+                    <form method="POST" action="/project2/blogs/<%= blog.id%>?_method=DELETE">
+                      <button class="btn">D - Remove</button>
+                    </form>
                   </div>
                 </div>
               </div>
