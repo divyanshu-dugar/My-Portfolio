@@ -6,5 +6,9 @@
     {
         "topic": "REST and RESTful API",
         "description": "16th November, 2024 - Today I learned about REST and REST"
+    },
+    {
+        "topic": "Call Stack",
+        "description": "4th December, 2024 - Today I learned about Call Stack. How to use the 'Sources Option' in Dev Tool and use breakpoints to visualize Call Stack"
     }
 ]
