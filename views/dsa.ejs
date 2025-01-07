@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/dsa.css">
+    <title>DSA | Divyanshu Dugar</title>
+  </head>
+  <body>
+    <%-include ('partials/navbar')%>
+    <h1>This is my DSA playground</h1>
+
+    <% dsa.forEach((dsa) => { %>
+        <div class="card bg-base-100 image-full w-96 shadow-xl">
+            <figure>
+              <img
+                src="<%=dsa.imagePath%>"
+                alt="" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title"><%=dsa.name%>
+              </h2>
+              <p><%=dsa.description%></p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Visit</button>
+              </div>
+            </div>
+          </div>
+    <% }) %>
+  </body>
+</html>
