@@ -10,5 +10,11 @@
         "desc": "Check out some common terms and it's definition/meaning",
         "href": "/definitions",
         "btn": "Click Here to Read"
+    },
+    {
+        "name": "My DSA Journey!",
+        "desc": "Visit my DSA Playground",
+        "href": "/dsa",
+        "btn": "Click Here to Read"
     }
 ]
