@@ -22,6 +22,7 @@ const notesData = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'notes
 const blogCards = JSON.parse(fs.readFileSync(path.join(__dirname, "data", 'blogs', "blogs-cards.json"), "utf8"));
 const webdevelopment = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'blogs', 'blogs-web-dev.json'), 'utf-8'));
 const blogsData = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'blogs', 'blogs-definitions.json'), 'utf-8'));
+const dsa = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'blogs', 'blogs-dsa.json'),'utf8'));
 
 // projects.ejs page
 let projects = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'projects', 'projects-project-name.json')));
@@ -169,7 +170,6 @@ app.get('/projects/:id', (req, res) => {
     }
 })
 
-//
 // --------------------------------------------------------------------
 //
 
@@ -188,6 +188,13 @@ app.get('/web-dev', (req, res)=>{
 app.get('/definitions', (req, res) => {
     res.render('definitions', { blogs: blogsData });
 })
+
+app.get('/dsa',(req, res) => {
+    res.render('dsa', {dsa: dsa});
+})
+
+// --------------------------------------------------------------------
+//
 
 // AJAX - API
 app.get('/api/data', (req, res) => {
