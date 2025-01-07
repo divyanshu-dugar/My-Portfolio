@@ -9,6 +9,6 @@
     },
     {
         "topic": "Call Stack",
-        "description": "4th December, 2024 - Today I learned about Call Stack. How to use the 'Sources Option' in Dev Tool and use breakpoints to visualize Call Stack"
+        "description": "4th December, 2024 - Today I learned about Call Stack. How to use the 'Sources Option' in Dev Tool and use breakpoints to visualize Call Stack. I also learnt that JS is a Single-Threaded Language, unlike C++ and Java which are multi-threaded languages - capable of doing more than one task at a time, but we have different ways of making JS act like Multi-threading using setTimeout functions and asynchornous code"
     }
 ]
