@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Arrays",
+        "description": "An array is a linear data structure that stores elements of the same type in a contiguous block of memory, accessible by indexed positions.",
+        "imagePath": "/Images/Arrays.png"
+    },
+    {
+        "name": "Linked Lists",
+        "description": "A linked list is a linear data structure where elements, called nodes, are connected using pointers, allowing dynamic memory allocation.",
+        "imagePath": "/Images/LinkedLists.png"
+    },
+    {
+        "name": "Stacks",
+        "description": "A stack is a linear data structure that follows the Last In, First Out (LIFO) principle, where elements are added and removed only from the top.",
+        "imagePath": "/Images/Stacks.png"
+    },
+    {
+        "name": "Queues",
+        "description": "A queue is a linear data structure that follows the First In, First Out (FIFO) principle, where elements are added at the rear and removed from the front.",
+        "imagePath": "/Images/Queues.png"
+    },
+    {
+        "name": "Binary Trees",
+        "description": "A binary tree is a hierarchical data structure in which each node has at most two children, commonly referred to as the left and right children.",
+        "imagePath": "/Images/BinaryTrees.png"
+    },
+    {
+        "name": "Graphs",
+        "description": "A graph is a non-linear data structure consisting of nodes (vertices) and edges that represent relationships between nodes.",
+        "imagePath": "/Images/Graphs.png"
+    },
+    {
+        "name": "Hash Tables",
+        "description": "A hash table is a data structure that maps keys to values using a hash function, providing fast data retrieval based on key values.",
+        "imagePath": "/Images/HashTables.png"
+    },
+    {
+        "name": "Heaps",
+        "description": "A heap is a specialized binary tree-based data structure that satisfies the heap property, where the parent node is either greater or smaller than its child nodes.",
+        "imagePath": "/Images/Heaps.png"
+    }
+]
