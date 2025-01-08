@@ -1,8 +1,10 @@
 [
     {
-        "name": "Kadane's Algorithm",
-        "leetCode":"Problem #53",
-        "problemDescription": "Given an array of integers, find the contiguous subarray (containing)",
+        "name": "Maximum Subarray Sum",
+        "leetCode":"53",
+        "problemDescription": "Kadane's Algorithm - Given an array of integers, find the contiguous subarray (containing)",
+        "difficulty": "Medium",
+        "details": "",
         "topic": "arrays"
     }
 ]

@@ -44,7 +44,7 @@
                   </div>
                   <div>
                     <div class="font-bold"><%=problem.name%></div>
-                    <div class="text-sm opacity-50">LeetCode Problem #</div>
+                    <div class="text-sm opacity-50">LeetCode Problem #<%=problem.leetCode%></div>
                   </div>
                 </div>
               </td>
@@ -53,9 +53,9 @@
                 <br />
                 <span class="badge badge-ghost badge-sm">Desktop Support Technician</span>
               </td>
-              <td>Purple</td>
+              <td><%=problem.difficulty%></td>
               <th>
-                <button class="btn btn-ghost btn-xs">details</button>
+                <button class="btn btn-ghost btn-xs"><a href="">details</a></button>
               </th>
             </tr>
             <%})%>
