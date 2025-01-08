@@ -4,6 +4,8 @@ const fs = require('fs');
 // const notesData = require('./data/notes.json');
 const methodOverride = require('method-override');
 
+const functionality = require('./modules/functionality');
+
 const app = express();
 
 app.set('views', path.join(__dirname, 'views'));
@@ -191,6 +193,14 @@ app.get('/definitions', (req, res) => {
 
 app.get('/dsa',(req, res) => {
     res.render('dsa', {dsa: dsa});
+})
+
+app.get('/dsa/:pageLink', (req, res) => {
+    let topicName = req.params.pageLink;
+
+    functionality.getProblems(topicName)
+    .then((problemList) => res.render('problems', {problemList}))
+    .catch((err) => console.log(err));
 })
 
 // --------------------------------------------------------------------
