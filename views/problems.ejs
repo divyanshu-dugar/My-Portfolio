@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Arrays</title>
+</head>
+<body>
+
+    <div class="overflow-x-auto">
+        <table class="table">
+          <!-- head -->
+          <thead>
+            <tr>
+              <th>
+                <label>
+                  <input type="checkbox" class="checkbox" />
+                </label>
+              </th>
+              <th>Problem Name</th>
+              <th>Description</th>
+              <th>Difficulty</th>
+              <th>Read More</th>
+            </tr>
+          </thead>
+          <tbody>
+            <%problemList.forEach((problem) => {%>
+            <!-- row 1 -->
+            <tr>
+              <th>
+                <label>
+                  <input type="checkbox" class="checkbox" />
+                </label>
+              </th>
+              <td>
+                <div class="flex items-center gap-3">
+                  <div class="avatar">
+                    <div class="mask mask-squircle h-12 w-12">
+                      <img
+                        src="https://img.daisyui.com/images/profile/demo/2@94.webp"
+                        alt="Avatar Tailwind CSS Component" />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="font-bold"><%=problem.name%></div>
+                    <div class="text-sm opacity-50">LeetCode Problem #</div>
+                  </div>
+                </div>
+              </td>
+              <td>
+                Zemlak, Daniel and Leannon
+                <br />
+                <span class="badge badge-ghost badge-sm">Desktop Support Technician</span>
+              </td>
+              <td>Purple</td>
+              <th>
+                <button class="btn btn-ghost btn-xs">details</button>
+              </th>
+            </tr>
+            <%})%>
+          </tbody>
+          <!-- foot -->
+          <tfoot>
+            <tr>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+</body>
+</html>
