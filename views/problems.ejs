@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/main.css">
-    <title>Arrays</title>
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/problems.css">
+    <title></title>
 </head>
 <body>
+    <%-include('partials/navbar')%>
 
     <div class="overflow-x-auto">
         <table class="table">
@@ -26,7 +29,7 @@
           </thead>
           <tbody>
             <%problemList.forEach((problem) => {%>
-            <!-- row 1 -->
+            <!-- row -->
             <tr>
               <th>
                 <label>
@@ -71,6 +74,6 @@
             </tr>
           </tfoot>
         </table>
-      </div>
+    </div>
 </body>
 </html>
