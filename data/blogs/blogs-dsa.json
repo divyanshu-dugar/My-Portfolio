@@ -2,7 +2,8 @@
     {
         "name": "Arrays",
         "description": "An array is a linear data structure that stores elements of the same type in a contiguous block of memory, accessible by indexed positions.",
-        "imagePath": "/Images/Arrays.png"
+        "imagePath": "/Images/Arrays.png",
+        "pageLink": "/dsa/arrays"
     },
     {
         "name": "Linked Lists",
