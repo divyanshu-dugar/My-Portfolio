@@ -14,7 +14,7 @@ I'm currently working on recoding my portfolio using **Next.js** for improved pe
 
 ## 🌐 Live Preview  
 You can explore the project here:  
-👉 [My Portfolio on GitHub](https://github.com/divyanshu-dugar/My-Portfolio)
+👉 [Vercel Deployment Link](https://divyanshu-dugar.vercel.app/)
 
 ## 🤝 Contribute  
 Feel free to explore, fork, or contribute! 😊  
