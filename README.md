@@ -11,10 +11,12 @@ Hey folks! 👋 Welcome to my Portfolio Repository. This project showcases my sk
 
 ## 🚧 In Progress  
 I'm currently working on recoding my portfolio using **Next.js** for improved performance, SEO, and scalability.
+You can explore it here:
+[https://github.com/divyanshu-dugar/divyanshu-dugar-portfolio](https://github.com/divyanshu-dugar/divyanshu-dugar-portfolio)
 
 ## 🌐 Live Preview  
 You can explore the project here:  
-👉 [Vercel Deployment Link](https://divyanshu-dugar.vercel.app/)
+👉 [Vercel Deployment Link: https://divyanshu-dugar.vercel.app/](https://divyanshu-dugar.vercel.app/)
 
 ## 🤝 Contribute  
 Feel free to explore, fork, or contribute! 😊  
